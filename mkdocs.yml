@@ -1,0 +1,94 @@
+site_name: Canberra GitHub Developer Day 2026
+site_description: A practical day on how government teams can use AI-powered and agentic development to modernise applications and deliver faster, while meeting the standards they're held to.
+site_url: https://codess-aus.github.io/Canberra-GitHub-Developer-Day-2026/
+repo_url: https://github.com/codess-aus/Canberra-GitHub-Developer-Day-2026
+repo_name: Canberra-GitHub-Developer-Day-2026
+copyright: Canberra GitHub Developer Day 2026
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  # System fonts: no third-party font requests, and faster first paint
+  font: false
+  icon:
+    logo: material/robot-happy-outline
+  # Two palettes give the light/dark switch. Each follows the visitor's system
+  # setting on first visit, and the header button toggles between them.
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.indexes # Chapter titles link to their own landing page
+    - navigation.path # Breadcrumbs
+    - navigation.footer # Previous / next links
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+
+# An empty placeholder file; keep it out of the published site
+exclude_docs: |
+  assets/readme.md
+
+extra:
+  # Gradient colours per page, sampled from the hero images.
+  # Index 0 is the home page, 1 to 6 are the chapters.
+  # Every stop keeps 4.5:1 contrast with white text, as the header uses them.
+  chapters:
+    - { a: "#181d3d", b: "#2e3aa8", c: "#8b46c9" }
+    - { a: "#1b1f3b", b: "#1d3fa8", c: "#7c4ddb" }
+    - { a: "#0f1a12", b: "#166534", c: "#5b3fc4" }
+    - { a: "#1b1f3b", b: "#7e3ab0", c: "#c2185b" }
+    - { a: "#1b1f3b", b: "#0550ae", c: "#8250df" }
+    - { a: "#0f2a3d", b: "#0b6b8a", c: "#1a7f5a" }
+    - { a: "#1b1f3b", b: "#c2410c", c: "#be185d" }
+
+nav:
+  - Home: index.md
+  - "1. Next era of software development": 1-next-era/index.md
+  - "2. Secure by Design, Modern by Default":
+      - 2-secure-by-design/index.md
+      - 2-secure-by-design/two-conversations-colliding.md
+      - 2-secure-by-design/three-questions.md
+      - 2-secure-by-design/two-assumptions.md
+      - 2-secure-by-design/todays-story.md
+      - 2-secure-by-design/ai-assistants-across-the-engineering-system.md
+      - 2-secure-by-design/why-modernize-the-system.md
+      - 2-secure-by-design/github-copilot-at-microsoft.md
+      - 2-secure-by-design/takeaways.md
+      - 2-secure-by-design/what-changed-in-how-we-work.md
+      - 2-secure-by-design/questions-and-discussion.md
+  - "3. Storytime": 3-storytime/index.md
+  - "4. GitHub Copilot + Azure DevOps":
+      - 4-ado-and-github-copilot/index.md
+      - 4-ado-and-github-copilot/introduction.md
+      - 4-ado-and-github-copilot/why-it-matters.md
+      - 4-ado-and-github-copilot/the-capability.md
+      - 4-ado-and-github-copilot/availability.md
+      - 4-ado-and-github-copilot/set-up.md
+      - 4-ado-and-github-copilot/agent-sessions.md
+      - 4-ado-and-github-copilot/review-and-complete.md
+      - 4-ado-and-github-copilot/controls-and-assurance.md
+      - 4-ado-and-github-copilot/data-handling.md
+      - 4-ado-and-github-copilot/recommended-approach.md
+      - 4-ado-and-github-copilot/next-step.md
+  - "5. Trustworthy software at scale": 5-trustworthy-software/index.md
+  - "6. Resources and Workshops": 6-resources-and-workshops/index.md

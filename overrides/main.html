@@ -1,0 +1,67 @@
+{#-
+  Adds two things to every page, driven by the page's front matter:
+
+  - A hero image at the very top (hero, hero_alt)
+  - Optional cards of chapters or topics (cards: chapters | topics), shown
+    wherever the page's Markdown contains the <!-- cards --> marker
+
+  Chapter colours (extra.chapters in mkdocs.yml) are exposed as CSS variables.
+-#}
+{% extends "base.html" %}
+
+{# The 404 page has no page object, so fall back to empty front matter #}
+{% set meta = page.meta if page and page.meta else {} %}
+{% set palette = config.extra.chapters[meta.chapter | default(0)] %}
+
+{% block extrahead %}
+  <style>:root{--ch-a:{{ palette.a }};--ch-b:{{ palette.b }};--ch-c:{{ palette.c }}}</style>
+  {% if meta.hero %}
+    <link rel="preload" as="image" href="{{ ('assets/' ~ meta.hero) | urlencode | url }}">
+  {% endif %}
+{% endblock %}
+
+{% block hero %}
+  {% if meta.hero %}
+    <section class="page-hero" aria-label="Page hero">
+      <div class="md-grid">
+        <img class="page-hero__image"
+             src="{{ ('assets/' ~ meta.hero) | urlencode | url }}"
+             alt="{{ meta.hero_alt | default('') | e }}"
+             fetchpriority="high" decoding="async">
+      </div>
+    </section>
+  {% endif %}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  {#
+    Material leaves some landmarks without a unique accessible name: the search
+    dialog, the nested section navs (they point at an icon-only label) and the
+    breadcrumb (named "Navigation", like the main nav). Name each one so screen
+    readers can tell them apart.
+  #}
+  <script>
+    document.querySelector(".md-search")
+      ?.setAttribute("aria-label", "{{ lang.t('search') }}")
+
+    document.querySelector(".md-path")
+      ?.setAttribute("aria-label", "Breadcrumb")
+
+    document.querySelectorAll("nav.md-nav[aria-labelledby]").forEach(nav => {
+      const title = nav.querySelector(":scope > .md-nav__title")
+      nav.removeAttribute("aria-labelledby")
+      nav.setAttribute("aria-label", title.textContent.trim())
+    })
+  </script>
+{% endblock %}
+
+{% block content %}
+  {% set body %}{{ super() }}{% endset %}
+  {% if meta.cards %}
+    {% set cards %}{% include "partials/cards.html" %}{% endset %}
+    {{ body | replace("<!-- cards -->", cards) }}
+  {% else %}
+    {{ body }}
+  {% endif %}
+{% endblock %}

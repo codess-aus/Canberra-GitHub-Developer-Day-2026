@@ -1,0 +1,39 @@
+{#-
+  A grid of cards, each linking to a page. The whole card is clickable (see
+  .card__title a::after in extra.css) while keyboard and screen reader users
+  get a single link named after the title.
+
+  cards: chapters  -> the landing page of every chapter in the nav
+  cards: topics    -> the other pages in the current chapter
+-#}
+{% set items = [] %}
+{% if page.meta.cards == "chapters" %}
+  {% for item in nav.items if not (item.is_page and item.is_homepage) %}
+    {# Chapters with topics are sections whose first page is the landing page;
+       chapters with a single page are listed as plain pages #}
+    {% set _ = items.append(item.children | first if item.is_section else item) %}
+  {% endfor %}
+{% else %}
+  {% for item in page.parent.children if item.url != page.url %}
+    {% set _ = items.append(item) %}
+  {% endfor %}
+{% endif %}
+
+<ul class="cards">
+  {% for item in items %}
+    {% set colours = config.extra.chapters[item.meta.chapter | default(0)] %}
+    <li class="card" style="--ch-a:{{ colours.a }};--ch-b:{{ colours.b }};--ch-c:{{ colours.c }}">
+      <div class="card__media">
+        {# Decorative: the title link below carries the meaning #}
+        <img src="{{ ('assets/' ~ item.meta.thumb) | urlencode | url }}" alt="" loading="lazy" decoding="async">
+      </div>
+      <div class="card__body">
+        {% if page.meta.cards == "chapters" %}
+          <p class="card__eyebrow">Chapter {{ item.meta.chapter }}</p>
+        {% endif %}
+        <h3 class="card__title"><a href="{{ item.url | url }}">{{ item.title }}</a></h3>
+        {% if item.meta.summary %}<p class="card__summary">{{ item.meta.summary }}</p>{% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
