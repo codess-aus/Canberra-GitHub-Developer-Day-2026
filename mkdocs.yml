@@ -64,7 +64,16 @@ extra:
 
 nav:
   - Home: index.md
-  - "1. Next era of software development": 1-next-era/index.md
+  - "1. Next era of software development":
+      - 1-next-era/index.md
+      - 1-next-era/ai-is-accelerating-software-development.md
+      - 1-next-era/github-evolves-with-how-developers-build.md
+      - 1-next-era/simpler-access-to-ai.md
+      - 1-next-era/copilot-projects.md
+      - 1-next-era/copilot-automations.md
+      - 1-next-era/copilot-fusion.md
+      - 1-next-era/ai-scan-for-repositories.md
+      - 1-next-era/faster-development-with-control.md
   - "2. Secure by Design, Modern by Default":
       - 2-secure-by-design/index.md
       - 2-secure-by-design/two-conversations-colliding.md

@@ -21,11 +21,6 @@ Resources and workshops to continue learning after the day.
 - [GitHub Copilot Fundamentals Part 1 of 2](https://learn.microsoft.com/en-gb/training/paths/copilot/) (Microsoft Learn). Core Copilot concepts, responsible use, prompting, and how to start implementing Copilot in your organisation.
 - [GitHub Copilot Fundamentals Part 2 of 2](https://learn.microsoft.com/en-gb/training/paths/gh-copilot-2/) (Microsoft Learn). Plan comparisons, agent mode, delegating tasks to Copilot in the cloud, the GitHub MCP Server, and Copilot code review.
 
-### GitHub Advanced Security
-
-- [GitHub Advanced Security Part 1 of 2](https://learn.microsoft.com/en-gb/training/paths/github-advanced-security/) (Microsoft Learn). Introduces GitHub Advanced Security, Dependabot security updates, secret scanning and code scanning.
-- [GitHub Advanced Security Part 2 of 2](https://learn.microsoft.com/en-gb/training/paths/github-advanced-security-2) (Microsoft Learn). Goes deeper on CodeQL, rolling out GitHub Advanced Security across an organisation, and managing sensitive data and security policies.
-
 ## Azure DevOps and GitHub together
 
 These pages cover the integration points between the two platforms. Two details are worth knowing before you choose a route. The Azure Boards integration sends work items to Copilot in GitHub repositories only, and Azure Repos are not supported there. The GitHub Copilot app integration is the route that works directly with Azure Repos, and it is in public preview.
@@ -49,8 +44,14 @@ These pages cover the integration points between the two platforms. Two details 
 - [Getting the most out of Azure DevOps and GitHub](https://devblogs.microsoft.com/devops/getting-the-most-out-of-azure-devops-and-github/) (Azure DevOps Blog, November 2024). Practical guidance on using both products, including Microsoft Entra alignment with Enterprise Managed Users and migrating with GitHub Enterprise Importer.
 - [Accelerating DevOps with GitHub and Azure](https://azure.microsoft.com/en-us/blog/accelerating-devops-with-github-and-azure/) (Microsoft Azure Blog, May 2019). Background on how the two platforms first came together. It predates the AI features, so treat it as history.
 
+## GitHub Copilot app
+
+- [Working with projects in the GitHub Copilot app](https://docs.github.com/en/copilot/how-tos/github-copilot-app/working-with-projects) (GitHub Docs). Give Copilot an ongoing goal and let it coordinate work across repositories, sessions and recurring tasks. Copilot Projects is in **public preview**. See [Chapter 1](../1-next-era/copilot-projects.md) for how it fits the Universe 2026 story.
+
 ## Security
 
+- [GitHub Advanced Security Part 1 of 2](https://learn.microsoft.com/en-gb/training/paths/github-advanced-security/) (Microsoft Learn). Introduces GitHub Advanced Security, Dependabot security updates, secret scanning and code scanning.
+- [GitHub Advanced Security Part 2 of 2](https://learn.microsoft.com/en-gb/training/paths/github-advanced-security-2) (Microsoft Learn). Goes deeper on CodeQL, rolling out GitHub Advanced Security across an organisation, and managing sensitive data and security policies.
 - [Securing source code with GitHub Advanced Security](https://learn.microsoft.com/en-us/security/zero-trust/sfi/secure-source-code-github-advanced-security) (Microsoft Learn). A Secure Future Initiative pattern from the protect engineering systems pillar. It recommends starting with GitHub Advanced Security for Azure DevOps on critical repositories, then phasing in code scanning, dependency scanning and secret protection.
 
 ## Videos
