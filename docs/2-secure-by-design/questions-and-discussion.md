@@ -12,3 +12,7 @@ summary: "What would GitHub Copilot modernisation unlock for your team?"
 **Questions and discussion**
 
 What would GitHub Copilot modernisation unlock for your team?
+
+## Talk notes
+
+Thanks very much for coming to my talk. I appreciate your time. This is the end of the session, but there is time for some further discussion if any of you would like to hang on. I'm happy to take any questions, but I also have a prompt for you. What would GitHub Copilot modernisation unlock for your team?

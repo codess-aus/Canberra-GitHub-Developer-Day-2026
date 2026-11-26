@@ -12,3 +12,15 @@ summary: "Decisions over chores, build for the team, observability earns trust."
 3. **Observability earns trust.** Validation and test prove readiness. Measured outcomes allow autonomy to expand.
 
 **The operating model is the outcome. Observable loops are how you build it.**
+
+## Talk notes
+
+I'd like to finish with a personal example. For my team at Microsoft, this is what changed in how we work.
+
+To start, we now do the meatier tasks. Agents handle the operational work so the team can focus on product direction, meaningful tradeoffs, and risk.
+
+Next, we build for the team. We use shared instructions, tools and standards. Accumulated learning creates organisational leverage, rather than simply leaving the benefit of all we've learnt inside an individual's session.
+
+Finally, observability earns trust. Metrics, validation, and visibility make it possible to judge whether a workflow is reliable enough to receive more autonomy.
+
+The true impact goes beyond faster coding tools. It represents a fundamental shift in how we work.

@@ -22,3 +22,13 @@ summary: "Managing legacy risk under a ticking clock meets AI transforming how s
 - Modernisation needs a repeatable engineering system
 
 **PSPF 002:** Legacy stopped being a someday problem. Keeping vulnerable systems running is no longer an acceptable risk.
+
+## Talk notes
+
+Two separate modernisation conversations seem to be colliding right now.
+
+There's the near-term focus about: managing legacy systems, improving developer productivity, and keeping up with strict compliance mandates like PSPF, where the clock is constantly ticking to identify, modernise and remediate vulnerabilities.
+
+Then there's the paradigm shift: AI is transforming how we build software. If that changes, our approach to planning, quality, security, and ops has to evolve too, otherwise, faster output won't lead to better outcomes.
+
+On 29 September, legacy stopped being a someday problem. PSPF says that Frontier AI has targeted the Commonwealth's technology estate, so keeping old, vulnerable systems running while weaknesses pile up is no longer an acceptable risk.

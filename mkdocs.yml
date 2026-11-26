@@ -47,6 +47,7 @@ markdown_extensions:
 # An empty placeholder file; keep it out of the published site
 exclude_docs: |
   assets/readme.md
+  2-secure-by-design/speakernotes.md
 
 extra:
   # Gradient colours per page, sampled from the hero images.
@@ -70,8 +71,8 @@ nav:
       - 2-secure-by-design/three-questions.md
       - 2-secure-by-design/two-assumptions.md
       - 2-secure-by-design/todays-story.md
-      - 2-secure-by-design/ai-assistants-across-the-engineering-system.md
       - 2-secure-by-design/why-modernize-the-system.md
+      - 2-secure-by-design/ai-assistants-across-the-engineering-system.md
       - 2-secure-by-design/github-copilot-at-microsoft.md
       - 2-secure-by-design/takeaways.md
       - 2-secure-by-design/what-changed-in-how-we-work.md

@@ -23,3 +23,13 @@ summary: "Internal adoption figures from Microsoft."
 - **81%:** Active percentage of engineers who have used the Copilot extension
 - **62k / 218k:** Employees with GitHub accounts (individual / EMU) to enjoy Copilot anywhere
 - **29 to 40%:** Suggestion acceptance rate range observed
+
+## Talk notes
+
+Here's some more data on internal Copilot adoption at Microsoft. As you can see, it was quickly and positively taken up, with the vast majority of engineers, 81%, using the Copilot extension.
+
+Looking at the suggestion acceptance rate, roughly a third up to 40% of AI-generated code makes it to production. That tells us two things. Firstly, humans are still building the guardrails and there's quality assurance. Secondly, we're being realistic about outcomes and how to improve them.
+
+Specific feedback we've received is that Copilot enables less task-switching and encourages more collaboration through dogfooding and sharing experience.
+
+Let me show you what this all looks like in your world.
