@@ -53,10 +53,18 @@ Before you plan a pilot around any of these, check the linked Docs page for the 
 
 ## The route through the keynote
 
-1. [AI is accelerating software development](ai-is-accelerating-software-development.md) sets the problem, backed by Octoverse 2026 data.
-2. [GitHub evolves with how developers build](github-evolves-with-how-developers-build.md) frames the answer across Plan, Build, Review and Ship.
-3. The five product pages cover access, Projects, Automations, Fusion and AI Scan.
-4. [Faster development, with control](faster-development-with-control.md) closes with a question to take back to your team.
+The opening pages frame the shift, then the keynote moves from the Australian developer community into the way GitHub connects work across the delivery lifecycle. The product pages explain Copilot access, Projects, Automations, Fusion and AI Scan; the later slides look at agent workflows, review, security and the platform foundations that support them.
+
+The new slides add a wider view of that story:
+
+- [Australia is building on GitHub](australia-is-building-on-github.md) grounds the global shift in local developer activity.
+- [A connected delivery system](a-connected-delivery-system.md) and [Universe platform announcements](universe-platform-announcements.md) show how the product changes fit together.
+- [Copilot agents at work](copilot-agents-at-work.md), [Projects](copilot-projects-goals.md), and the [Copilot runtime rewrite](copilot-runtime-rewrite.md) show what delegation looks like in practice.
+- The [Fusion model picker](copilot-fusion-models.md), [benchmark results](copilot-fusion-benchmarks.md), [effort levels](copilot-fusion-effort.md), and [open agent platform](an-open-agent-platform.md) explore model choice and interoperability.
+- [Memory and Dreaming](copilot-memory-and-dreaming.md), [automated workflows](automating-agent-workflows.md), [connected sessions](connected-copilot-sessions.md), [review](review-at-agent-speed.md), and [security](security-at-agent-speed.md) cover continuity and quality as activity scales.
+- [Git architecture for agents](git-architecture-for-agents.md), [what the next era looks like](what-the-next-era-looks-like.md), and [human judgement](human-judgement.md) close with the platform and people needed to make the shift work.
+
+[Faster development, with control](faster-development-with-control.md) brings the keynote back to a practical question: where is your team feeling the most pressure across the development lifecycle?
 
 ## Topics
 

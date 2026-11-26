@@ -47,6 +47,7 @@ markdown_extensions:
 # An empty placeholder file; keep it out of the published site
 exclude_docs: |
   assets/readme.md
+  1-next-era/speakernotes.md
   2-secure-by-design/speakernotes.md
 
 extra:
@@ -74,6 +75,24 @@ nav:
       - 1-next-era/copilot-fusion.md
       - 1-next-era/ai-scan-for-repositories.md
       - 1-next-era/faster-development-with-control.md
+      - 1-next-era/australia-is-building-on-github.md
+      - 1-next-era/a-connected-delivery-system.md
+      - 1-next-era/universe-platform-announcements.md
+      - 1-next-era/copilot-agents-at-work.md
+      - 1-next-era/copilot-projects-goals.md
+      - 1-next-era/copilot-runtime-rewrite.md
+      - 1-next-era/copilot-fusion-models.md
+      - 1-next-era/copilot-fusion-benchmarks.md
+      - 1-next-era/copilot-fusion-effort.md
+      - 1-next-era/an-open-agent-platform.md
+      - 1-next-era/copilot-memory-and-dreaming.md
+      - 1-next-era/automating-agent-workflows.md
+      - 1-next-era/connected-copilot-sessions.md
+      - 1-next-era/review-at-agent-speed.md
+      - 1-next-era/security-at-agent-speed.md
+      - 1-next-era/git-architecture-for-agents.md
+      - 1-next-era/what-the-next-era-looks-like.md
+      - 1-next-era/human-judgement.md
   - "2. Secure by Design, Modern by Default":
       - 2-secure-by-design/index.md
       - 2-secure-by-design/two-conversations-colliding.md
