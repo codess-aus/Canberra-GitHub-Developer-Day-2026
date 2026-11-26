@@ -49,6 +49,7 @@ exclude_docs: |
   assets/readme.md
   1-next-era/speakernotes.md
   2-secure-by-design/speakernotes.md
+  5-trustworthy-software/speakernotes.md
 
 extra:
   # Gradient colours per page, sampled from the hero images.
@@ -119,5 +120,33 @@ nav:
       - 4-ado-and-github-copilot/data-handling.md
       - 4-ado-and-github-copilot/recommended-approach.md
       - 4-ado-and-github-copilot/next-step.md
-  - "5. Trustworthy software at scale": 5-trustworthy-software/index.md
+  - "5. Trustworthy software at scale":
+      - 5-trustworthy-software/index.md
+      - 5-trustworthy-software/security-at-ai-speed.md
+      - 5-trustworthy-software/vulnerabilities-and-exploitation.md
+      - 5-trustworthy-software/five-questions-for-leaders.md
+      - 5-trustworthy-software/fortify-modernise-defend.md
+      - 5-trustworthy-software/github-advanced-security.md
+      - 5-trustworthy-software/security-configurations.md
+      - 5-trustworthy-software/block-secrets.md
+      - 5-trustworthy-software/ai-code-scanning.md
+      - 5-trustworthy-software/codename-mdash.md
+      - 5-trustworthy-software/choose-a-scanner.md
+      - 5-trustworthy-software/remediate-at-scale.md
+      - 5-trustworthy-software/dependabot-reachability.md
+      - 5-trustworthy-software/security-across-the-lifecycle.md
+      - 5-trustworthy-software/security-in-developer-tools.md
+      - 5-trustworthy-software/secure-the-supply-chain.md
+      - 5-trustworthy-software/pull-request-security-gates.md
+      - 5-trustworthy-software/advanced-security-for-azure-devops.md
+      - 5-trustworthy-software/azure-devops-security-gates.md
+      - 5-trustworthy-software/prioritise-runtime-risk.md
+      - 5-trustworthy-software/secure-by-default.md
+      - 5-trustworthy-software/cloud-agent-security.md
+      - 5-trustworthy-software/govern-ai-agents.md
+      - 5-trustworthy-software/modern-platforms-and-patching.md
+      - 5-trustworthy-software/microsoft-perception.md
+      - 5-trustworthy-software/five-actions.md
+      - 5-trustworthy-software/where-to-enable-controls.md
+      - 5-trustworthy-software/start-secure-stay-secure.md
   - "6. Resources and Workshops": 6-resources-and-workshops/index.md
