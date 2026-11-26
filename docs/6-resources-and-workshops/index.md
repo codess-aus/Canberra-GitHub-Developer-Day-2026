@@ -68,5 +68,3 @@ These pages cover the integration points between the two platforms. Two details 
 
 - [Azure SRE Agent and App Modernisation with GitHub Copilot](https://youtu.be/kxEsD9osBuU) (YouTube).
 - [GitHub Copilot Budgets and Tokenomics: Room to Build, No Bill Shock](https://youtu.be/TYeC2xd7d1g) (YouTube).
-
-More resources and workshops are coming soon.
