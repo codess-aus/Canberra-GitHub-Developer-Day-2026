@@ -17,7 +17,7 @@ summary: "One repo. One sprint."
 
     Learn more: [docs.github.com/en/copilot/how-tos/github-copilot-app/manage-azure-devops-work](https://docs.github.com/en/copilot/how-tos/github-copilot-app/manage-azure-devops-work)
 
-## Talk notes
+## The ask: one repo, one sprint
 
 So here's my ask, and it's a small one.
 

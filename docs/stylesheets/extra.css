@@ -239,6 +239,15 @@
   color: rgb(255 255 255 / 75%);
 }
 
+/* Accessibility: links inside running text must not rely on colour alone
+   (WCAG 1.4.1), so underline them. Card links keep their own styling */
+.md-typeset p a:not(.md-button):not(.headerlink),
+.md-typeset li:not(.card) a:not(.md-button):not(.headerlink),
+.md-typeset td a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .card {
     transition: none;

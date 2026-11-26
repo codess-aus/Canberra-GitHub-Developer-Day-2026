@@ -24,7 +24,7 @@ summary: "A pilot path for agencies: prepare, pilot, scale."
         - Monitor activity in Azure DevOps
         - Add Entra revocation to offboarding
 
-## Talk notes
+## A pilot path you could follow
 
 So what would I actually do if I were in your seat?
 

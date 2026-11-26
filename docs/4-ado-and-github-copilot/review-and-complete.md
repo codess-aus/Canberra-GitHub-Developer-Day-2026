@@ -28,7 +28,7 @@ summary: "You stay the approver, and Agent Merge is opt-in per pull request."
 
     Your Azure DevOps permissions and the repository's checks and policies decide whether a PR can be approved or completed.
 
-## Talk notes
+## The last mile: from agent finished to merged
 
 This slide is about the last mile: getting from "the agent finished" to "it's in the codebase".
 

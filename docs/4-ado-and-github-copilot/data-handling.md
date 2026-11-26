@@ -28,7 +28,7 @@ summary: "Know what content can reach the model, and which guardrails still appl
 
     **Recommendation:** Match model choice to your data classification before piloting on sensitive repos.
 
-## Talk notes
+## What the model actually sees
 
 The next question is always about data.
 

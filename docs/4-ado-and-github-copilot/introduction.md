@@ -17,7 +17,7 @@ summary: "Agents should work inside your rules, not around them."
 
     Michelle Sandford, Azure Developer Engagement Lead, Microsoft ANZ
 
-## Talk notes
+## Opening: agents should work inside your rules
 
 Good morning, everyone, and thank you for staying with me.
 

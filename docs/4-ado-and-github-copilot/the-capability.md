@@ -19,7 +19,7 @@ summary: "Clone, branch and code, open a pull request, review, and optionally Ag
 
     Public preview: the Azure DevOps integration is subject to change. It is disabled by default and enabled per user in the app.
 
-## Talk notes
+## The lifecycle, step by step
 
 Here's the whole lifecycle on one slide, left to right.
 

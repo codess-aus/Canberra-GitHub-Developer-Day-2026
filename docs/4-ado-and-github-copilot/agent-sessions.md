@@ -16,7 +16,7 @@ summary: "Describe the task, let the agent work, and review the pull request."
     3. **You stay in the loop.** Review the agent's changes and respond to any requests for approval.
     4. **Track it to done.** Follow the PR's status in the sidebar, then click View PR to review its checks.
 
-## Talk notes
+## What a session feels like
 
 Now let's look at the experience, because this is where developers will form their opinion.
 

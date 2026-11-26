@@ -19,7 +19,7 @@ summary: "Code stays put, permissions stay the same, and policies still gate mer
 
     The agent works inside the guardrails your agency already runs in Azure DevOps.
 
-## Talk notes
+## Why this matters to government
 
 Let me start with why this matters to government.
 

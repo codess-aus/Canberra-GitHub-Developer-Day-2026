@@ -27,7 +27,7 @@ summary: "Eight steps to enable the integration and add a repository."
 
     Opt-in by design: the integration is disabled by default and must be switched on before an account or repository is connected.
 
-## Talk notes
+## Switching it on, deliberately
 
 Here's my favourite slide for anyone responsible for change control.
 

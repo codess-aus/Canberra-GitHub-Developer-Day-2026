@@ -18,7 +18,7 @@ summary: "Plans, app, identity and policy: four prerequisites and one planning n
 
     **Planning note: Local sessions only.** Cloud sessions aren't available for Azure DevOps repositories. Agent sessions run in the app. Confirm agency-managed devices can run the GitHub Copilot app before a pilot.
 
-## Talk notes
+## Ground rules before you start
 
 Before anyone gets excited, let's check the ground rules.
 

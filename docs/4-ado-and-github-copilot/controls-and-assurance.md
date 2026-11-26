@@ -26,7 +26,7 @@ summary: "The five governance questions agencies will ask, and two gaps to plan 
 
     Source: GitHub Docs, "Managing Azure DevOps work with the GitHub Copilot app" (public preview), docs.github.com
 
-## Talk notes
+## The governance questions, one at a time
 
 Now to the slide I suspect many of you came for.
 
