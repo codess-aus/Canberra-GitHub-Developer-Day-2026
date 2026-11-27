@@ -28,6 +28,7 @@ Pick the hands-on workshop that matches what you want to learn. Each workshop op
 
 ### GitHub Copilot
 
+- [GitHub Copilot Learning Hub](https://awesome-copilot.github.com/learning-hub/) (Awesome GitHub Copilot). Community-curated guides, tutorials and hands-on workshops for Copilot across the editor, CLI, desktop app and cloud.
 - [GitHub Copilot Fundamentals Part 1 of 2](https://learn.microsoft.com/en-gb/training/paths/copilot/) (Microsoft Learn). Core Copilot concepts, responsible use, prompting, and how to start implementing Copilot in your organisation.
 - [GitHub Copilot Fundamentals Part 2 of 2](https://learn.microsoft.com/en-gb/training/paths/gh-copilot-2/) (Microsoft Learn). Plan comparisons, agent mode, delegating tasks to Copilot in the cloud, the GitHub MCP Server, and Copilot code review.
 
