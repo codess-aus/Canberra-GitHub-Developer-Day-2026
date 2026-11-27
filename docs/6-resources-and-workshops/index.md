@@ -11,7 +11,9 @@ Resources and workshops to continue learning after the day.
 
 ## Workshops
 
-Pick the hands-on workshop that matches what you want to learn. Each workshop opens on its own site or GitHub repository.
+**On the day:** Explore the [GitHub Copilot workshops](https://github-samples.github.io/copilot-workshops/) available at the event.
+
+For further hands-on learning, pick a workshop below. Each opens on its own site or GitHub repository.
 
 - [Agentic Workflows Workshop](https://copilot-dev-days.github.io/agentic-workflows-workshop/) (Workshop site). Build and deploy agentic workflows with `gh aw`. Automate daily digests, turn Hacker News stories into GitHub issues, and set up a ChatOps slash command, all from the command line.
 - [GitHub Copilot CLI for Beginners](https://awesome-copilot.github.com/learning-hub/cli-for-beginners/) (Workshop site). New to Copilot in the terminal? Learn how to use AI-powered command-line assistance in your everyday development workflow.
